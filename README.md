@@ -92,7 +92,8 @@ public class DemoConfigurationClass {
 @ComponentScan : Root Directory
 
 
-Rest of the code is in Repo
+Rest of the code is in Repo.
+Enjoy Coding!!!!!!
  
 
 
