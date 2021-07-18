@@ -57,8 +57,29 @@ STEPS:
     </build>
 </project>
 
-# PROJECT SETUP AND CONFIRATION 
+# PROJECT SETUP AND CONFIGURATION  
  
  ![image](https://user-images.githubusercontent.com/32073819/126065716-bcd0b45a-cc57-4eed-8d7d-f2705fb08acf.png)
+ 
+# Demo Configuration class
+
+package com.example.demo.config;
+
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+
+@Configuration
+@EnableWebMvc
+@ComponentScan("com.example")
+public class DemoConfigurationClass {
+}
+
+@EnableWebMvc : Spring Mvc Enable Annotation. 
+@ComponentScan : Root Directory
+
+
+Rest of the code is in Repo
+ 
 
 
