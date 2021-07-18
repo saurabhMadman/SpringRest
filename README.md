@@ -1,7 +1,19 @@
-# SpringRest
+# SpringRest 
 
 This is Service API which return Student List in Json.
 # Endpoint:/api/students
+# Intellij IDE for Development
+# Tomcat 10
+# Build Tool : Maven
+
+# Setting up Tomcat Server on Windows. 
+1. Install tomcat: https://tomcat.apache.org/download-10.cgi
+![image](https://user-images.githubusercontent.com/32073819/126066834-a8e4d61e-d5f2-4154-9866-30f9e11b791d.png)
+2. Go to run --> Edit Configuration --> Add new instance of tomcat if you havent have any or use the existing one.
+![image](https://user-images.githubusercontent.com/32073819/126066970-b99ca28e-d71f-472b-926b-a5b905013239.png)
+ ![image](https://user-images.githubusercontent.com/32073819/126066990-5c6cad02-4fbe-42bf-9d04-81749260a204.png)
+ 
+Now you Are good to Go.:-)
 
 STEPS: 
 1.	Maven Dependency Setup
@@ -9,6 +21,8 @@ STEPS:
 3.	Designing RestController .
 
 # POM.XML
+For All dependency you visit and download it from : # https://search.maven.org/ 
+
  <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
