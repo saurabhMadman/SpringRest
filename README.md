@@ -20,6 +20,10 @@ STEPS:
 2.	Configuration Setup.
 3.	Designing RestController .
 
+# How Request Is Processed. 
+![image](https://user-images.githubusercontent.com/32073819/127116416-b4defdfa-7594-4d53-8c44-d8e68b924f0c.png)
+
+
 # POM.XML
 For All dependency you visit and download it from : # https://search.maven.org/ 
 
